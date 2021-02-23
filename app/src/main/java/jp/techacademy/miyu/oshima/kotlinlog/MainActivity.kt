@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         //Humanのインスタンスを作る
         val Human = Human("大嶋", 25)
-        Human.hobby = "哲学"
         Human.think()
 
     }
