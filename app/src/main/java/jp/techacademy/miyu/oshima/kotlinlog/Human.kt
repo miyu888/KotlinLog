@@ -23,7 +23,6 @@ open class Human: Animal, Thinkable {
 
     //Thinkableインターフェースのメソッドをオーバーライド
     override fun think(){
-        this.hobby = "哲学"
         Log.d("kotlinetest", "私は" + this.hobby + "について考える。")
     }
 }

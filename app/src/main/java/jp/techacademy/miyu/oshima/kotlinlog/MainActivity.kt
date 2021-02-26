@@ -13,10 +13,14 @@ class MainActivity : AppCompatActivity() {
         val human = Human("大嶋", 25)
         //Human
         human.say()
+        human.hobby = "哲学"
+        human.think()
 
         //Humanのインスタンスを作る
-        val Human = Human("大嶋", 25)
-        Human.think()
+        val human2 = Human("尾崎豊", 26)
+        human2.say()
+        human2.hobby = "音楽"
+        human2.think()
 
     }
 }
